@@ -1,15 +1,15 @@
 const divp = document.getElementById("p");
 const divf = document.getElementById("f");
 const divc = document.getElementById("c");
-
-const t = ["p", "f", "c"];
-let pfc = t[Math.floor(Math.random() * (3 - 0)) + 0];
-console.log(pfc);
-
-let joueur;
-
 const btn = document.getElementById("btn");
 const compteur = document.getElementById("compteur");
+const t = ["p", "f", "c"];
+
+let pfc = t[Math.floor(Math.random() * (3 - 0)) + 0];
+console.log(pfc);
+let joueur;
+
+
 
 btn.addEventListener("click", () => {
     let compt = 0;
